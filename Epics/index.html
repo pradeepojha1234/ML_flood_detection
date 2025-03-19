@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EPICS PROJECT</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">FD 🌊</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/istockphoto-1327617934-612x612.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            
+
+            
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              
+              <strong>FLOOD DETECTION</strong> using satellite image analysis
+            </h2>
+
+            <p class="hero-text">
+              Upload a picture or a file.
+            </p>
+
+            <div class="upload-container">
+              <label class="custom-file-upload">
+                  <input type="file" id="imageUpload" accept="image/*">
+                    Choose Image
+              </label>
+              <button class="detect-btn">Detect Flood</button>
+          </div>
+          <img id="preview" src="#" alt="Image Preview">
+          <p id="result"></p>
+
+          </div>
+
+        </div>
+      </section>
+      
+       <!-- 
+        - #ABOUT
+      -->
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/istockphoto-1327617934-612x612.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Flood Detector</p>
+
+            <h2 class="h2 section-title">I detect flood using AI</h2>
+
+            <p class="section-text">
+              AI-based flood detection uses machine learning and algorithms to analyze data and predict flooding. This technology can help communities prepare for and respond to floods. 
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+ <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <h2 class="h2 section-title">Group Members</h2>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">Sompa Bhui</h3>
+
+                <data class="skills-data" value="95">ML</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Dhruv Bhalode</h3>
+
+                <data class="skills-data" value="100">ML</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Nishika</h3>
+
+                <data class="skills-data" value="100">ML</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Harsh Anand</h3>
+
+                <data class="skills-data" value="75">Frontend</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Saurav Thakur</h3>
+
+                <data class="skills-data" value="100">Frontend</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Abhishek Mishra</h3>
+
+                <data class="skills-data" value="100">Report & PPT</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Ronak Nagda</h3>
+
+                <data class="skills-data" value="100">Report & PPT</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Pradeep Vishwakarma</h3>
+
+                <data class="skills-data" value="100">Report & PPT</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2025 <a href="#" class="copyright-link">EPICS PROJECT</a>. All Rights Reseverd
+      </p>
+
+      
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
